@@ -22,6 +22,7 @@
   transition: transform 450ms;
   position: relative;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .single__row:hover {
