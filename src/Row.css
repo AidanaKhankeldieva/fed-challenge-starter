@@ -12,7 +12,7 @@
   flex-wrap: wrap;
 }
 .single__row {
-  border: 1px solid rgb(175, 173, 173);
+  border: 1px solid rgb(204, 202, 202);
   width: 202px;
   height: 230px;
   margin-left: 20px;
@@ -20,7 +20,8 @@
   margin-top: 20px;
   border-radius: 7px;
   transition: transform 450ms;
-  visibility: visible;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .single__row:hover {
@@ -28,6 +29,10 @@
   cursor: pointer;
   transform: scale(1.03);
 }
+.single__row:hover .hover__text {
+  visibility: visible;
+}
+
 .row__content {
   position: relative;
   padding: 3px;
@@ -67,5 +72,25 @@
 .hover__text {
   margin-top: 10px;
   color: rgb(45, 128, 223);
-  /* visibility: hidden; */
+  visibility: hidden;
+}
+
+.workout__playlist {
+  width: 75px;
+  height: 114px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: rgba(10, 10, 10, 0.5);
+  text-align: center;
+}
+.workout__playlist__content {
+  margin-top: 20px;
+}
+.workout__playlist__content > h3,
+h6,
+i {
+  margin-top: 10px;
 }

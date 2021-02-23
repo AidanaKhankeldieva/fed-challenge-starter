@@ -11,8 +11,18 @@ const Row = () => {
           return (
             <div className='single__row' key={idx}>
               <img className='imgbig' src={item.img} alt={item.title} />
+              {item.numberOfworkouts && (
+                <div className='workout__playlist'>
+                  <div className='workout__playlist__content'>
+                    <h3>{item.numberOfworkouts}</h3>
+                    <h6>WORKOUTS</h6>
+                    <i className='fas fa-bars'></i>
+                  </div>
+                </div>
+              )}
+
               <div className='row__content'>
-                <h4 className='row__title'>{item.title}</h4>
+                <h5 className='row__title'>{item.title}</h5>
                 {item.time && item.additional ? (
                   <div className='row__paragraph'>
                     <p>
