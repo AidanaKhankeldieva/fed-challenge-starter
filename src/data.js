@@ -5,6 +5,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/fJDgmFJg/lake-inniscarra-trainer.jpg",
     time: "30:53",
     additional: "6,248 M",
+    numberOfworkouts: "",
     seriesWorkouts: false,
   },
   {
@@ -13,6 +14,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/SjWvXqNM/performance-series-trainer.jpg",
     time: "",
     additional: "",
+    numberOfworkouts: "9",
     seriesWorkouts: true,
   },
   {
@@ -21,6 +23,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/CnVrvrJ5/slow-pulls-trainer.jpg",
     time: "44:13",
     additional: "9,948 M",
+    numberOfworkouts: "",
     seriesWorkouts: false,
   },
   {
@@ -29,6 +32,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/w3pd4w1D/20-minutes-to-toned-trainer.jpg",
     time: "",
     additional: "",
+    numberOfworkouts: "12",
     seriesWorkouts: true,
   },
   {
@@ -37,6 +41,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/dZB65sLN/charles-race-trainer.jpg",
     time: "36:22",
     additional: "8,648",
+    numberOfworkouts: "",
     seriesWorkouts: false,
   },
   {
@@ -45,6 +50,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/fVb2g97c/full-body-hiit-trainer.jpg",
     time: "",
     additional: "",
+    numberOfworkouts: "12",
     seriesWorkouts: true,
   },
   {
@@ -53,6 +59,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/D86pggGf/kafue-river-trainer.jpg",
     time: "22:22",
     additional: "4,660 M",
+    numberOfworkouts: "",
     seriesWorkouts: false,
   },
   {
@@ -61,6 +68,7 @@ const data = [
     imgsmall: "https://i.postimg.cc/QKk4vgnb/shred-and-burn-trainer.jpg",
     time: "",
     additional: "",
+    numberOfworkouts: "16",
     seriesWorkouts: true,
   },
 ];
