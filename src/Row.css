@@ -3,10 +3,10 @@
   height: max-content;
   margin: 40px auto;
   background-color: rgb(236, 234, 234);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .row__list {
-  width: 80%;
-  margin: 50px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,5 +67,5 @@
 .hover__text {
   margin-top: 10px;
   color: rgb(45, 128, 223);
-  visibility: hidden;
+  /* visibility: hidden; */
 }
