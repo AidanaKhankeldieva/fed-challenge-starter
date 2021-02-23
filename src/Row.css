@@ -14,7 +14,7 @@
 .single__row {
   border: 1px solid rgb(204, 202, 202);
   width: 202px;
-  height: 230px;
+  height: 200px;
   margin-left: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -42,7 +42,7 @@
   display: flex;
   font-weight: bold;
   font-size: x-small;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 .row__paragraph p {
   margin-right: 10px;
@@ -70,7 +70,7 @@
 }
 
 .hover__text {
-  margin-top: 10px;
+  margin-top: 5px;
   color: rgb(45, 128, 223);
   visibility: hidden;
 }

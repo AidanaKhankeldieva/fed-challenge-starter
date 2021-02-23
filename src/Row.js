@@ -43,7 +43,7 @@ const Row = () => {
                   alt={item.title}
                   className='imgsmall'
                 />
-                <h5 className='hover__text'>VIEW DETAILS</h5>
+                <h6 className='hover__text'>VIEW DETAILS</h6>
               </div>
             </div>
           );
