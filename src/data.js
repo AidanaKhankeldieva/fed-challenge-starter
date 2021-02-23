@@ -1,0 +1,68 @@
+const data = [
+  {
+    img: "https://i.postimg.cc/bG7mJV7g/lake-inniscarra-thumb.jpg",
+    title: "Lake Inniscarra, Ireland - Pyramid",
+    imgsmall: "https://i.postimg.cc/fJDgmFJg/lake-inniscarra-trainer.jpg",
+    time: "30:53",
+    additional: "6,248 M",
+    seriesWorkouts: false,
+  },
+  {
+    img: "https://i.postimg.cc/JyDTRC2t/performance-series-thumb.jpg",
+    title: "Performance Series",
+    imgsmall: "https://i.postimg.cc/SjWvXqNM/performance-series-trainer.jpg",
+    time: "",
+    additional: "",
+    seriesWorkouts: true,
+  },
+  {
+    img: "https://i.postimg.cc/PCF3G5KB/slow-pulls-thumb.jpg",
+    title: "Slow Pulls and Fast Intervals",
+    imgsmall: "https://i.postimg.cc/CnVrvrJ5/slow-pulls-trainer.jpg",
+    time: "44:13",
+    additional: "9,948 M",
+    seriesWorkouts: false,
+  },
+  {
+    img: "https://i.postimg.cc/JGTVnmPQ/20-minutes-to-toned-thumb.jpg",
+    title: "20 Minutes to Toned",
+    imgsmall: "https://i.postimg.cc/w3pd4w1D/20-minutes-to-toned-trainer.jpg",
+    time: "",
+    additional: "",
+    seriesWorkouts: true,
+  },
+  {
+    img: "https://i.postimg.cc/8jkgNsB5/charles-race-thumb.jpg",
+    title: "Charles Race, Boston, Massachusetts",
+    imgsmall: "https://i.postimg.cc/dZB65sLN/charles-race-trainer.jpg",
+    time: "36:22",
+    additional: "8,648",
+    seriesWorkouts: false,
+  },
+  {
+    img: "https://i.postimg.cc/7bnrFSzd/full-body-hiit-thumb.jpg",
+    title: "Full-Body HIIT Series",
+    imgsmall: "https://i.postimg.cc/fVb2g97c/full-body-hiit-trainer.jpg",
+    time: "",
+    additional: "",
+    seriesWorkouts: true,
+  },
+  {
+    img: "https://i.postimg.cc/XB3xKG7y/kafue-river-thumb.jpg",
+    title: "Kafue River, Zambia - Power Stroke Pyramid",
+    imgsmall: "https://i.postimg.cc/D86pggGf/kafue-river-trainer.jpg",
+    time: "22:22",
+    additional: "4,660 M",
+    seriesWorkouts: false,
+  },
+  {
+    img: "https://i.postimg.cc/1nDJNcPQ/shred-and-burn-thumb.jpg",
+    title: "Shred & Burn Series",
+    imgsmall: "https://i.postimg.cc/QKk4vgnb/shred-and-burn-trainer.jpg",
+    time: "",
+    additional: "",
+    seriesWorkouts: true,
+  },
+];
+
+export default data;

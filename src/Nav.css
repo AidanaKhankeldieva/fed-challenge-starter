@@ -1,0 +1,14 @@
+.nav__bar {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(233, 232, 232);
+}
+.nav__bar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__bar li {
+  margin-right: 30px;
+  margin-top: 10px;
+  list-style: none;
+}
